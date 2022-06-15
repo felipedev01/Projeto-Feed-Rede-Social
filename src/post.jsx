@@ -1,6 +1,12 @@
- export function Post(){
+ export function Post(props){
+
+    console.log(props)
 
     return (
-        <h1>Post</h1>
+        <div>
+            <h1>{props.author}</h1>
+            <p>{props.content}</p>
+        </div>
+        
     )
 }
