@@ -1,6 +1,6 @@
 import {Post} from './post'
 import {Header} from './Componentes/Header.jsx'
-import './style.css'
+import './Global.css'
 
 
 
