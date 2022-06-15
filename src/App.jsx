@@ -2,7 +2,7 @@ import {Post} from './post'
 
 
 
-function App() {
+export function App() {
 
   return(
 
@@ -20,4 +20,4 @@ function App() {
   
 }
 
-export default App
+
