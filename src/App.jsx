@@ -1,7 +1,7 @@
 import {Post} from './post'
 import {Header} from './Componentes/Header.jsx'
 import './Global.css'
-
+import Styles from './App.module.css'
 
 
 export function App() {
@@ -12,8 +12,13 @@ export function App() {
 
 
       <Header></Header>
-      
-      <Post 
+
+     <div className={Styles.Wrapper}>
+      <aside>
+        SideBar
+      </aside>
+       <main>
+       <Post 
         author="Felipe" 
         content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nemo dolor sed nostrum recusandae quod repudiandae hic maiores, ipsa commodi sit quia blanditiis totam pariatur excepturi cumque, alias mollitia quidem.">
 
@@ -24,8 +29,14 @@ export function App() {
         content="Outro post">
 
       </Post>
+
+       </main>
+     </div>
+      
+      
+      
      
-    
+          
   
     
     </div>
