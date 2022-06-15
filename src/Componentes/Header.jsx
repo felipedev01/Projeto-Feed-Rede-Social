@@ -5,6 +5,6 @@ console.log(styles)
 export function Header(){
 
     return(
-        <h1>Feeed Ignite</h1>
+        <h1 className={styles.Header}>Feeed Ignite</h1>
     )
 }

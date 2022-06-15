@@ -1,5 +1,5 @@
 import {Post} from './post'
-
+import {Header} from './Componentes/Header.jsx'
 import './style.css'
 
 
@@ -10,6 +10,8 @@ export function App() {
 
     <div>
 
+
+      <Header></Header>
       
       <Post 
         author="Felipe" 
