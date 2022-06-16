@@ -2,7 +2,7 @@ import {Post} from './post'
 import {Header} from './Componentes/Header.jsx'
 import './Global.css'
 import Styles from './App.module.css'
-
+import {Sidebar} from './Componentes/Sidebar.jsx'
 
 export function App() {
 
@@ -14,9 +14,7 @@ export function App() {
       <Header></Header>
 
      <div className={Styles.Wrapper}>
-      <aside>
-        SideBar
-      </aside>
+     <Sidebar></Sidebar>
        <main>
        <Post 
         author="Felipe" 
