@@ -1,5 +1,8 @@
 
 import Styles from './Sidebar.module.css'
+import EditIcon from '../Assets/edit.svg'
+
+console.log(EditIcon)
 
 export function Sidebar(){
 
@@ -16,6 +19,7 @@ export function Sidebar(){
                 
             </div>
             <footer>
+                <img className={Styles.editlogo} src="/src/Assets/edit.svg" alt="edit logo" />
                     <a href="#">
                         Editar seu perfil
                     </a>
