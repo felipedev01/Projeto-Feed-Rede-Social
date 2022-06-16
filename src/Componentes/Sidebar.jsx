@@ -19,8 +19,9 @@ export function Sidebar(){
                 
             </div>
             <footer>
-                <img className={Styles.editlogo} src="/src/Assets/edit.svg" alt="edit logo" />
                     <a href="#">
+                    <img className={Styles.editlogo} src="/src/Assets/edit.svg" alt="edit logo" />
+                       
                         Editar seu perfil
                     </a>
                 </footer>
