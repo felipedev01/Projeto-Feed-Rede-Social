@@ -32,7 +32,10 @@
             <strong>Deixe seu feedback</strong>
             <textarea 
             />
+            <footer>
             <button type='submit'>Publicar</button>
+            </footer>
+            
            </form>
                
         </article>

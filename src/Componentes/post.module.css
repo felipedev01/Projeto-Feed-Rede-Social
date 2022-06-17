@@ -101,4 +101,12 @@
     border: none;
 }.CommentForm button:hover{
     background-color: #00B37E;
+    transition: background-color 0.1s;
+}.CommentForm footer{
+    visibility: hidden;
+    height: 0;
+}.CommentForm:focus-within footer{
+    visibility: visible;
+    height: 100%;
+    
 }
