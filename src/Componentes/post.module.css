@@ -66,4 +66,34 @@
 }.post span{
     font-size:0.875rem;
     color: #8D8D99;
+}.CommentForm{
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    height: 1fr;
+    padding: 0 2.5rem;
+}.CommentForm > strong{
+    line-height:1.5rem;
+    color:#E1E1E6 ;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}.CommentForm textarea{
+    background-color:#121214 ;
+    width:100%;
+    color: aliceblue;
+    resize: none;
+    height: 6rem;
+    border:1px solid #00B37E;
+    border-radius: 8px;
+    color: var(--grey-100);
+    line-height:1.4;
+    padding: 1rem;
+}.CommentForm button{
+    background-color:#00875F;
+    color:#FFFFFF;
+    font-family:'Roboto',sans-serif;
+    font-weight:700;
+    line-height: 19px;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius:8px;
+    margin-top:1rem;
 }
