@@ -5,8 +5,12 @@
 }.avatar{
     height: 3.75rem;
     width: 3.75rem;
-    background-repeat: no-repeat;
+    margin-top: 2.5rem;
+   
 }.post strong{
     color: aqua;
     display: block;
+}.UserInfo{
+    margin-top: 2,5rem;
+    
 }
