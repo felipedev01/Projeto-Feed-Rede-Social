@@ -24,6 +24,11 @@
     margin: 0 2.5rem;
 }.post header{
     border: 1px solid var(--green-500);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
    
 }
 .content a{
@@ -36,4 +41,11 @@
 }.authorinfo{
     margin-top: 2.9375rem;
     margin-left: 1rem;
+}.post time{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right:2.5rem;
+    margin-top: 3.6875rem;
+   
 }
