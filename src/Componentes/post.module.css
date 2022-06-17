@@ -87,13 +87,18 @@
     color: var(--grey-100);
     line-height:1.4;
     padding: 1rem;
+    margin-top: 1rem;
 }.CommentForm button{
     background-color:#00875F;
     color:#FFFFFF;
     font-family:'Roboto',sans-serif;
-    font-weight:700;
+    font-weight:bold;
     line-height: 19px;
     padding: 1rem 1.5rem 1rem 1.5rem;
     border-radius:8px;
     margin-top:1rem;
+    cursor: pointer;
+    border: none;
+}.CommentForm button:hover{
+    background-color: #00B37E;
 }

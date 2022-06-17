@@ -29,7 +29,7 @@
              <a href="http://">#novoprojeto #nlw #rocketseat</a> </p>
            </div>
            <form className={styles.CommentForm}>
-            <strong>Deuxe seu feedback</strong>
+            <strong>Deixe seu feedback</strong>
             <textarea 
             />
             <button type='submit'>Publicar</button>
