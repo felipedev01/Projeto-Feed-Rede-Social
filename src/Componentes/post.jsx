@@ -28,6 +28,11 @@
             <p>
              <a href="http://">#novoprojeto #nlw #rocketseat</a> </p>
            </div>
+           <form >
+            <strong>Deuxe seu feedback</strong>
+            <textarea 
+            />
+           </form>
                
         </article>
       
