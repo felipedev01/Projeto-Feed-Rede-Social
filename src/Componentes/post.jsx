@@ -19,16 +19,16 @@
            </header>
 
            <div className={styles.content}>
-            Fala galeraa 👋
+            <p>Fala galeraa 👋</p>
 
-            Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
+            <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
 
-           👉 jane.design/doctorcare
+           <p>👉 jane.design/doctorcare</p>
 
-            #novoprojeto #nlw #rocketseat
+            <p>#novoprojeto #nlw #rocketseat</p>
            </div>
                
         </article>
-        
+      
     )
 }
