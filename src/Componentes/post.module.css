@@ -21,6 +21,7 @@
 }.content{
     display: block;
     border: 1px solid var(--green-500);
+    margin: 0 2.5rem;
 }.post header{
     border: 1px solid var(--green-500);
    
@@ -31,6 +32,8 @@
     border: 1px solid var(--green-500);
 }.author{
     display: flex;
-}.post header{
-    
+    margin-left: 2.5rem;
+}.authorinfo{
+    margin-top: 2.9375rem;
+    margin-left: 1rem;
 }
