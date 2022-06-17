@@ -1,4 +1,12 @@
 .post{
     background-color: #202024;
     height: 38.81rem;
+    display: flex;
+}.avatar{
+    height: 3.75rem;
+    width: 3.75rem;
+    background-repeat: no-repeat;
+}.post strong{
+    color: aqua;
+    display: block;
 }

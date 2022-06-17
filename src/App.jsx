@@ -22,11 +22,7 @@ export function App() {
 
       </Post>
 
-      <Post 
-        author="João" 
-        content="Outro post">
-
-      </Post>
+     
 
        </main>
      </div>
