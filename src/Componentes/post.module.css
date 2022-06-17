@@ -1,16 +1,36 @@
 .post{
     background-color: #202024;
     height: 38.81rem;
-    display: flex;
+    display:block;
+    border-radius: 8px;
+    border: 1px solid var(--green-500);
 }.avatar{
     height: 3.75rem;
     width: 3.75rem;
     margin-top: 2.5rem;
+    border: 1px solid var(--green-500);
    
 }.post strong{
     color: aqua;
     display: block;
+    border: 1px solid var(--green-500);
 }.UserInfo{
     margin-top: 2,5rem;
+    border: 1px solid var(--green-500);
+    
+}.content{
+    display: block;
+    border: 1px solid var(--green-500);
+}.post header{
+    border: 1px solid var(--green-500);
+   
+}
+.content a{
+    border: 1px solid var(--green-500);
+}.content p{
+    border: 1px solid var(--green-500);
+}.author{
+    display: flex;
+}.post header{
     
 }

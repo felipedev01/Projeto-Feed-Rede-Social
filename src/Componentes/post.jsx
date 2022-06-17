@@ -23,9 +23,10 @@
 
             <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
 
-           <p>👉 jane.design/doctorcare</p>
+           <p><a href="http://">👉 jane.design/doctorcare</a> </p>
 
-            <p>#novoprojeto #nlw #rocketseat</p>
+            <p>
+             <a href="http://">#novoprojeto #nlw #rocketseat</a> </p>
            </div>
                
         </article>
