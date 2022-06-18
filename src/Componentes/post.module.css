@@ -109,4 +109,6 @@
     visibility: visible;
     height: 100%;
     
+}.commentList{
+    margin-top: 2rem;
 }

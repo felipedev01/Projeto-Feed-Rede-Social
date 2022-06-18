@@ -1,5 +1,5 @@
  import styles from './post.module.css'
- 
+ import {Comment} from'./Comment.jsx'
  export function Post(props){
 
     console.log(props)
@@ -37,6 +37,13 @@
             </footer>
             
            </form>
+
+           <div className={styles.commentList}>
+            <Comment></Comment>
+            <Comment></Comment>
+            <Comment></Comment>
+      
+           </div>
                
         </article>
       
