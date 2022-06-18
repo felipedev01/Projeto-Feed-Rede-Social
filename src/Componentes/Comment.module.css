@@ -1,0 +1,16 @@
+.comment{
+    margin: 0 2.5rem;
+    border:1px solid var(--green-500);
+}.comment >img{
+    height: 3.75rem;
+    width: 3.75rem;
+    margin-top: 2.5rem;
+    border: 1px solid var(--gray-800);
+    outline: 2px solid var(--green-500);
+    border-radius: 8px;
+    box-sizing: initial;
+}.commentBox{
+    border:1px solid var(--green-500);
+}.commentContent{
+    border:1px solid var(--green-500);
+}
