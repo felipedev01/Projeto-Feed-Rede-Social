@@ -13,6 +13,7 @@
     width:100%;
     background-color:#29292E;
     padding:1rem 1.359rem 1.56rem 1rem;
+    margin-bottom: 1rem;
 }.authorAndTime{
     border:1px solid var(--green-500);
 }.commentContent > header{
@@ -28,4 +29,19 @@
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.2rem;
+}.applaudButton{
+    color:#8D8D99;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size:0.875rem;
+    line-height:1rem;
+}.applaud{
+    margin-left: 0.625rem;
+    position: relative;
+    bottom: 0.3rem;
+}.applaudCount{
+    position: relative;
+    bottom: 0.3rem;
+    margin-left:0.5rem;
 }
