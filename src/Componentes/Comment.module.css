@@ -41,10 +41,10 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-}.applaud{
-    margin-left: 0.625rem;
-
+}.applaudButton:hover{
+    color:#00B37E;
+}.applaudIcon{
+    margin-right: 0.625rem;
 }.applaudCount{
-    
-    margin-left:0.5rem;
+    margin-left:0.625rem;
 }

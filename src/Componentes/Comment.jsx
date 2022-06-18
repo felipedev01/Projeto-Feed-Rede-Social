@@ -29,8 +29,8 @@ export function Comment(){
              </div>
           <footer>
            <button className={styles.applaudButton}>
-            <ThumbsUp size={20}/>  <span className={styles.applaud}>Aplaudir</span>
-             <span className={styles.applaudCount}>20</span>
+            <ThumbsUp size={20} className={styles.applaudIcon}/> Aplaudir
+            <div className={styles.applaudCount}>20</div>
            </button>
           </footer>
          </div>
