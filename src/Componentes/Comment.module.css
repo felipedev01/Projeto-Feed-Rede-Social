@@ -45,6 +45,9 @@
     color:#00B37E;
 }.applaudIcon{
     margin-right: 0.625rem;
-}.applaudCount{
-    margin-left:0.625rem;
+}
+    
+.applaudCount::before{
+    content: "\2022";
+    padding: 0 0.25rem;
 }
