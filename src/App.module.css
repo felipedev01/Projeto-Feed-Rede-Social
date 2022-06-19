@@ -10,8 +10,11 @@
     
 }@media(max-width:768px){
 
-    .Wrapper{
+    .Wrapper {
         grid-template-columns:1fr;
+    }
+    html {
+        font-size:87.5%;
     }
 
 
