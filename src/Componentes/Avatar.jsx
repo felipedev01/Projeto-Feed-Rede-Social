@@ -4,7 +4,7 @@ export function Avatar(props){
     console.log(props)
     return(
         
-             <img src={props.src} className={Styles.Avatar } alt="" />
+            <img src={props.src} className={props.hasBorder ? Styles.AvatarWithBorder:Styles.Avatar} alt="" />
         
        
     )

@@ -11,7 +11,7 @@
            <header>
             <div className={styles.author}>
               <div className={styles.divAvatar}>
-              <Avatar src="https://github.com/diego3g.png"></Avatar>
+              <Avatar hasBorder={true} src="https://github.com/diego3g.png"></Avatar>
               </div>
             
             <div className={styles.authorinfo}>
