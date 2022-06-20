@@ -88,6 +88,11 @@ export function App() {
         return(
              <Post src={posts[0].author.authorAvatar}
              name={posts[0].author.authorName}
+             role={posts[0].author.authorRole}
+             paragraph1={posts[0].content[0].content}
+             paragraph2={posts[0].content[1].content}
+             link1={posts[0].content[2].content}
+             link2={posts[0].content[3].content}
              >
 
              </Post>

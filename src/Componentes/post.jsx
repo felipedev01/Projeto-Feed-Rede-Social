@@ -16,21 +16,21 @@
             
             <div className={styles.authorinfo}>
               <strong >{props.name}</strong>
-              <span>Web Developer</span>
+              <span>{props.role}</span>
             </div>
             </div>
             <time title='16 de junho' dateTime='2022-06-16'>Publicado há 1h</time>
            </header>
 
            <div className={styles.content}>
-            <p>Fala galeraa 👋</p>
+            <p>{props.paragraph1}</p>
             <br></br>
-            <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
+            <p>{props.paragraph2}</p>
              <br />
-           <p><a href="http://">👉 jane.design/doctorcare</a> </p>
+           <p><a href="http://">{props.link1}</a> </p>
               <br />
             <p>
-             <a href="http://">#novoprojeto #nlw #rocketseat</a> </p>
+             <a href="http://">{props.link2}</a> </p>
            </div>
            <form className={styles.CommentForm}>
             <strong>Deixe seu feedback</strong>
