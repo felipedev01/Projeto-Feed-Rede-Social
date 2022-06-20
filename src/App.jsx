@@ -86,7 +86,11 @@ export function App() {
        <main>
        {posts.map(post =>{
         return(
-             <Post src={posts[0].author.authorAvatar}></Post>
+             <Post src={posts[0].author.authorAvatar}
+             name={posts[0].author.authorName}
+             >
+
+             </Post>
         )
        })
       

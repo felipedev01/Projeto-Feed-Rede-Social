@@ -15,7 +15,7 @@
               </div>
             
             <div className={styles.authorinfo}>
-              <strong>Felipe Cristovão</strong>
+              <strong >{props.name}</strong>
               <span>Web Developer</span>
             </div>
             </div>
