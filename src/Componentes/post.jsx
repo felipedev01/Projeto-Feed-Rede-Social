@@ -7,6 +7,8 @@
 
  export function Post({author,publishedAt,content}){
 
+  console.log(content)
+
     const dateFormatted = format(publishedAt,"d 'de' LLLL' às 'HH:mm'h'",{
       locale:ptBR,
     })
@@ -30,18 +32,21 @@
               <span>{author.authorRole}</span>
             </div>
             </div>
-            <time title={dateFormatted}>{dateDistanceRelativeToNow}</time>
+            <time title={dateFormatted} dateTime={publishedAt.toISOString()}>{dateDistanceRelativeToNow} </time>
            </header>
 
            <div className={styles.content}>
-            <p>{content[0].content}</p>
-            <br></br>
-            <p>{content[1].content}</p>
-             <br />
-           <p><a href="http://">{content[2].content}</a> </p>
-              <br />
-            <p>
-             <a href="http://">{content[3].content}</a> </p>
+           {content.map(line=>{
+            if(line.type=='paragraph'){
+              return(
+                <p><br />{line.content} <br/></p>
+              )
+            }else if(line.type==='link'){
+              return(
+                <p><br /><a href="#">{line.content}</a></p>
+              )
+            }
+           })}
            </div>
            <form className={styles.CommentForm}>
             <strong>Deixe seu feedback</strong>
