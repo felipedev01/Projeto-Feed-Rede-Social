@@ -9,7 +9,7 @@ const posts= [
     id:1,
     author:{
             authorAvatar:"https://github.com/diego3g.png",
-            authorName:"Felipe Cristovão da Silva",
+            authorName:"Diego Fernades",
             authorRole:"Web Developer"
            },
     publishedAt:new Date('2022-06-20 07:00:00'),
@@ -40,7 +40,7 @@ const posts= [
   {
     id:2,
     author:{
-            authorAvatar:"https://github.com/diego3g.png",
+            authorAvatar:"https://github.com/felipedev01.png",
             authorName:"Felipe Cristovão da Silva",
             authorRole:"Web Developer"
            },
@@ -87,9 +87,9 @@ export function App() {
        {posts.map(post =>{
         return(
              <Post 
-             author={posts[0].author}
-             content={posts[0].content}
-             publishedAt={posts[0].publishedAt}
+             author={post.author}
+             content={post.content}
+             publishedAt={post.publishedAt}
              >
 
              </Post>
