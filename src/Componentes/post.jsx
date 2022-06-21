@@ -3,7 +3,7 @@
  import {Avatar} from'./Avatar.jsx'
  export function Post(props){
 
-    console.log(props)
+    console.log(props.content)
 
     return (
         <article className={styles.post}>
@@ -11,26 +11,26 @@
            <header>
             <div className={styles.author}>
               <div className={styles.divAvatar}>
-              <Avatar  src={props.src}></Avatar>
+              <Avatar  src={props.author.authorAvatar}></Avatar>
               </div>
             
             <div className={styles.authorinfo}>
-              <strong >{props.name}</strong>
-              <span>{props.role}</span>
+              <strong >{props.author.authorName}</strong>
+              <span>{props.author.authorRole}</span>
             </div>
             </div>
-            <time title='16 de junho' dateTime='2022-06-16'>Publicado há 1h</time>
+            <time title={props.publishedAt}>Publicado há 1h</time>
            </header>
 
            <div className={styles.content}>
-            <p>{props.paragraph1}</p>
+            <p>{props.content[0].content}</p>
             <br></br>
-            <p>{props.paragraph2}</p>
+            <p>{props.content[1].content}</p>
              <br />
-           <p><a href="http://">{props.link1}</a> </p>
+           <p><a href="http://">{props.content[2].content}</a> </p>
               <br />
             <p>
-             <a href="http://">{props.link2}</a> </p>
+             <a href="http://">{props.content[3].content}</a> </p>
            </div>
            <form className={styles.CommentForm}>
             <strong>Deixe seu feedback</strong>
