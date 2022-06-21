@@ -1,15 +1,15 @@
  import styles from './post.module.css'
  import {Comment} from'./Comment.jsx'
  import {Avatar} from'./Avatar.jsx'
+ import {format} from 'date-fns'
+ import ptBR from 'date-fns/locale/pt-BR'
+
+
  export function Post({author,publishedAt,content}){
 
-    const dateFormatted = new Intl.DateTimeFormat('pt-BR',{
-
-      day:'2-digit',
-      month:'long',
-      hour:'2-digit',
-      minute:'2-digit'
-    }).format(publishedAt)
+    const dateFormatted = format(publishedAt,"d 'de' LLLL' às 'HH:mm'h'",{
+      locale:ptBR,
+    })
 
     return (
         <article className={styles.post}>
