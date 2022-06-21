@@ -1,7 +1,7 @@
  import styles from './post.module.css'
  import {Comment} from'./Comment.jsx'
  import {Avatar} from'./Avatar.jsx'
- import {format} from 'date-fns'
+ import {format,formatDistanceToNow} from 'date-fns'
  import ptBR from 'date-fns/locale/pt-BR'
 
 
@@ -9,6 +9,11 @@
 
     const dateFormatted = format(publishedAt,"d 'de' LLLL' às 'HH:mm'h'",{
       locale:ptBR,
+    })
+
+    const dateDistanceRelativeToNow=formatDistanceToNow(publishedAt,{
+      locale:ptBR,
+      addSuffix:true,
     })
 
     return (
@@ -25,7 +30,7 @@
               <span>{author.authorRole}</span>
             </div>
             </div>
-            <time title='publishedAt'>{dateFormatted}</time>
+            <time title={dateFormatted}>{dateDistanceRelativeToNow}</time>
            </header>
 
            <div className={styles.content}>
