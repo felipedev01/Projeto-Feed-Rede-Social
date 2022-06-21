@@ -3,7 +3,13 @@
  import {Avatar} from'./Avatar.jsx'
  export function Post({author,publishedAt,content}){
 
-    //console.log({author})
+    const dateFormatted = new Intl.DateTimeFormat('pt-BR',{
+
+      day:'2-digit',
+      month:'long',
+      hour:'2-digit',
+      minute:'2-digit'
+    }).format(publishedAt)
 
     return (
         <article className={styles.post}>
@@ -19,7 +25,7 @@
               <span>{author.authorRole}</span>
             </div>
             </div>
-            <time title='publishedAt'>Publicado há 1h</time>
+            <time title='publishedAt'>{dateFormatted}</time>
            </header>
 
            <div className={styles.content}>
