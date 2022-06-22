@@ -16,7 +16,7 @@ import { useState } from 'react'
 
     
       event.preventDefault()
-     setComment([1,2,3])
+     setComment([...comment,comment.length+1])
     
      
   }
