@@ -63,11 +63,11 @@ import { useState } from 'react'
            {content.map(line=>{
             if(line.type=='paragraph'){
               return(
-                <p><br />{line.content} <br/></p>
+                <p key={line.content}><br />{line.content} <br/></p>
               )
             }else if(line.type==='link'){
               return(
-                <p><br /><a href="#">{line.content}</a></p>
+                <p key={line.content}><br /><a href="#">{line.content}</a></p>
               )
             }
            })}
@@ -90,7 +90,10 @@ import { useState } from 'react'
 
             {comment.map(comment=>{
               return(
-                <Comment commentText={comment}></Comment>
+                <Comment 
+                commentText={comment}
+                key={comment}
+                ></Comment>
               )
             })}
             
