@@ -10,17 +10,26 @@ import { useState } from 'react'
 
   console.log(content)
 
+  const [newComment,setNewComment] =useState('')
+
   const [comment, setComment]=useState([
-  'Post muito bacana!','Outro post muito bacana!'
+  
   ])
+
+  function handleNewComment(){
+
+    setNewComment(event.target.value)
+    console.log(newComment)
+  }
 
   function handleCreateComment(){
 
     
       event.preventDefault()
-     const newComment=  (event.target.comment.value)
+     
      setComment([...comment,newComment])
     
+     setNewComment([''])
      
   }
 
@@ -66,7 +75,10 @@ import { useState } from 'react'
            <form  onSubmit={handleCreateComment} className={styles.CommentForm}>
             <strong>Deixe seu feedback</strong>
             <textarea 
+            placeholder='Deixe seu Comentário'
             name="comment"
+            onChange={handleNewComment}
+            value={newComment}
             />
             <footer>
             <button type='submit'>Publicar</button>
