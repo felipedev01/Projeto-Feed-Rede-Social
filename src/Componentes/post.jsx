@@ -18,7 +18,8 @@ import { useState } from 'react'
 
     
       event.preventDefault()
-     setComment([...comment,comment.length+1])
+     const newComment=  (event.target.comment.value)
+     setComment([...comment,newComment])
     
      
   }
@@ -65,6 +66,7 @@ import { useState } from 'react'
            <form  onSubmit={handleCreateComment} className={styles.CommentForm}>
             <strong>Deixe seu feedback</strong>
             <textarea 
+            name="comment"
             />
             <footer>
             <button type='submit'>Publicar</button>
