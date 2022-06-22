@@ -2,7 +2,12 @@ import { ThumbsUp, Trash } from 'phosphor-react'
 import styles from './Comment.module.css'
 import {Avatar} from'./Avatar.jsx'
 
-export function Comment({commentText}){
+export function Comment({commentText,deleteComment}){
+
+  function onDeleteComment(){
+
+    deleteComment()
+  }
 
   console.log(commentText)
 
@@ -23,7 +28,7 @@ export function Comment({commentText}){
 
               </div>
                 
-                <button title='Botão deletar'>
+                <button title='Botão deletar'onClick={onDeleteComment}>
                     <Trash size={24} ></Trash>
                 </button>
 
@@ -32,7 +37,7 @@ export function Comment({commentText}){
              <p>{commentText}</p>
              </div>
           <footer>
-           <button className={styles.applaudButton}>
+           <button className={styles.applaudButton} >
             <ThumbsUp size={20} className={styles.applaudIcon}/> Aplaudir
             <div className={styles.applaudCount}>20</div>
            </button>

@@ -31,6 +31,9 @@ import { useState } from 'react'
     
      setNewComment([''])
      
+  } function deleteComment(){
+
+    console.log("Comentário deletado")
   }
 
     const dateFormatted = format(publishedAt,"d 'de' LLLL' às 'HH:mm'h'",{
@@ -93,6 +96,7 @@ import { useState } from 'react'
                 <Comment 
                 commentText={comment}
                 key={comment}
+                deleteComment={deleteComment}
                 ></Comment>
               )
             })}
