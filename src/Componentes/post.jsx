@@ -3,11 +3,23 @@
  import {Avatar} from'./Avatar.jsx'
  import {format,formatDistanceToNow} from 'date-fns'
  import ptBR from 'date-fns/locale/pt-BR'
+import { useState } from 'react'
 
 
  export function Post({author,publishedAt,content}){
 
   console.log(content)
+
+  const [comment, setComment]=useState([1,2])
+
+  function handleCreateComment(){
+
+    
+      event.preventDefault()
+     setComment([1,2,3])
+    
+     
+  }
 
     const dateFormatted = format(publishedAt,"d 'de' LLLL' às 'HH:mm'h'",{
       locale:ptBR,
@@ -48,7 +60,7 @@
             }
            })}
            </div>
-           <form className={styles.CommentForm}>
+           <form  onSubmit={handleCreateComment} className={styles.CommentForm}>
             <strong>Deixe seu feedback</strong>
             <textarea 
             />
@@ -56,12 +68,17 @@
             <button type='submit'>Publicar</button>
             </footer>
             
-           </form>
+           </form >
 
            <div className={styles.commentList}>
-            <Comment></Comment>
-            <Comment></Comment>
-            <Comment></Comment>
+
+            {comment.map(comment=>{
+              return(
+                <Comment></Comment>
+              )
+            })}
+            
+          
       
            </div>
                
