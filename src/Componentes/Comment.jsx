@@ -6,7 +6,8 @@ export function Comment({commentText,deleteComment}){
 
   function onDeleteComment(){
 
-    deleteComment()
+    deleteComment(commentText)
+    
   }
 
   console.log(commentText)

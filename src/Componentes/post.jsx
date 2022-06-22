@@ -31,11 +31,13 @@ import { useState } from 'react'
     
      setNewComment([''])
      
-  } function deleteComment(){
+  } function deleteComment(commentToDelete){
 
-    console.log("Comentário deletado")
+    const commentsWithoutDeletedOne=comment.filter(comment =>{
+      return comment !== commentToDelete;
+    })
+    setComment(commentsWithoutDeletedOne);
   }
-
     const dateFormatted = format(publishedAt,"d 'de' LLLL' às 'HH:mm'h'",{
       locale:ptBR,
     })
