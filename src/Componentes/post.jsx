@@ -10,7 +10,9 @@ import { useState } from 'react'
 
   console.log(content)
 
-  const [comment, setComment]=useState([1,2])
+  const [comment, setComment]=useState([
+  'Post muito bacana!','Outro post muito bacana!'
+  ])
 
   function handleCreateComment(){
 
@@ -74,7 +76,7 @@ import { useState } from 'react'
 
             {comment.map(comment=>{
               return(
-                <Comment></Comment>
+                <Comment commentText={comment}></Comment>
               )
             })}
             
