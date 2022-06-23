@@ -22,7 +22,8 @@ import { useState } from 'react'
   }
 
   function handleNewComment(){
-
+   
+    event.target.setCustomValidity('')
     setNewComment(event.target.value)
     console.log(newComment)
   }
