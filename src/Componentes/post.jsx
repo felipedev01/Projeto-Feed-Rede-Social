@@ -94,7 +94,7 @@ import { useState } from 'react'
             onInvalid={handleNewCommentInvalid}
             />
             <footer>
-            <button type='submit'>Publicar</button>
+            <button type='submit' disabled={newComment==0}>Publicar</button>
             </footer>
             
            </form >
