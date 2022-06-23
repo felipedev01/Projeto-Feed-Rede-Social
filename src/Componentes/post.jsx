@@ -16,6 +16,11 @@ import { useState } from 'react'
   
   ])
 
+  function handleNewCommentInvalid(){
+
+    event.target.setCustomValidity('Preencha o campo comentário')
+  }
+
   function handleNewComment(){
 
     setNewComment(event.target.value)
@@ -84,6 +89,8 @@ import { useState } from 'react'
             name="comment"
             onChange={handleNewComment}
             value={newComment}
+            required
+            onInvalid={handleNewCommentInvalid}
             />
             <footer>
             <button type='submit'>Publicar</button>
