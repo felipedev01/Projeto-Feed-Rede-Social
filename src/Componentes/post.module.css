@@ -99,7 +99,12 @@
     margin-top:1rem;
     cursor: pointer;
     border: none;
-}.CommentForm button:hover{
+}.CommentForm button:disabled{
+ opacity:0.7;
+ cursor:not-allowed;
+}
+
+.CommentForm button:not(:disabled):hover{
     background-color: #00B37E;
     transition: background-color 0.1s;
 }.CommentForm footer{

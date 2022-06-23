@@ -52,7 +52,7 @@ import { useState } from 'react'
       locale:ptBR,
       addSuffix:true,
     })
-
+    const isNewCommentEmpty=newComment==0;
     return (
         <article className={styles.post}>
 
@@ -94,7 +94,7 @@ import { useState } from 'react'
             onInvalid={handleNewCommentInvalid}
             />
             <footer>
-            <button type='submit' disabled={newComment==0}>Publicar</button>
+            <button type='submit' disabled={isNewCommentEmpty}>Publicar</button>
             </footer>
             
            </form >
