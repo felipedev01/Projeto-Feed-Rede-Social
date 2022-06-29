@@ -8,8 +8,8 @@ const posts= [
   {
     id:1,
     author:{
-            authorAvatar:"https://github.com/diego3g.png",
-            authorName:"Diego Fernades",
+            authorAvatar:"https://xesque.rocketseat.dev/users/avatar/profile-4706ed19-0060-42d0-9f2a-d5d61fdb9b6f-1635537196786.jpg",
+            authorName:"Felipe Cristovão da Silva",
             authorRole:"Web Developer"
            },
     publishedAt:new Date('2022-06-20 07:00:00'),
@@ -40,7 +40,7 @@ const posts= [
   {
     id:2,
     author:{
-            authorAvatar:"https://github.com/felipedev01.png",
+            authorAvatar:"https://xesque.rocketseat.dev/users/avatar/profile-4706ed19-0060-42d0-9f2a-d5d61fdb9b6f-1635537196786.jpg",
             authorName:"Felipe Cristovão da Silva",
             authorRole:"Web Developer"
            },

@@ -9,7 +9,10 @@ export function Comment({commentText,deleteComment}){
   const[likesCount,setLikesCount]=useState(0)
 
   function handleLikeComment(){
-    setLikesCount(likesCount+1)
+    setLikesCount((state)=>{
+      return state+1
+    })
+    
   }
 
   function onDeleteComment(){
@@ -23,12 +26,12 @@ export function Comment({commentText,deleteComment}){
     return(
          <div className={styles.comment}>
 
-           <Avatar hasBorder={false} src='https://github.com/diego3g.png'></Avatar>
+           <Avatar hasBorder={false} src='https://xesque.rocketseat.dev/users/avatar/profile-4706ed19-0060-42d0-9f2a-d5d61fdb9b6f-1635537196786.jpg'></Avatar>
             <div className={styles.commentBox}>
              <div className={styles.commentContent}>
              <header>
               <div className={styles.authorAndTime}>
-              <strong>Felipe Cristovão</strong>
+              <strong>Felipe Cristovão da Silva</strong>
               
               <time title='16 de junho' dateTime='2022-06-16'>Cerca de há 1h atrás</time>
             

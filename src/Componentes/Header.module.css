@@ -5,4 +5,6 @@
     padding: 1.25rem 0;
 }.Header img{
     height: 2rem;
+}.Header h1{
+    margin-left:1rem;
 }

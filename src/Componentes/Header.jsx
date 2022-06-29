@@ -9,6 +9,7 @@ export function Header(){
     <div>
       <header className={styles.Header}> 
         <img src="/src/Assets/Ignite-logo.svg" alt="Logo Ignite" />
+        <h1> Feed</h1>
         </header>
     </div>
         
