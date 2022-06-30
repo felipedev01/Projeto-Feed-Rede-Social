@@ -10,7 +10,12 @@ export function Comment({commentText,deleteComment}){
 
   function handleLikeComment(){
     setLikesCount((state)=>{
-      return state+1
+      if(state==0){
+        return state+1
+      }else{
+        return state-1
+      }
+      
     })
     
   }

@@ -57,7 +57,13 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-}.applaudButton:hover{
+}.applaudButton:focus {
+
+   border:2px solid black;
+  
+}
+
+.applaudButton:hover{
     color:#00B37E;
 }.applaudIcon{
     margin-right: 0.625rem;
