@@ -16,16 +16,57 @@ const posts= [
 
     content:[{
       type:'paragraph',
-      content:'Fala galeraa 👋',
+      content:'Olá Pessoal! 👋',
     },
     {
       type:'paragraph',
-      content:'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀',
+      content:'Este é o meu primeiro projeto feito com React.js, ele é simples mas aprendi muita coisa ao fazê-lo, é uma reprodução de um feed de uma rede social, onde implementei algumas funcionalidades como comentar postagens e curtir comentários.',
 
     },
     {
+      type:'paragraph',
+      content:'Habilidades Testadas:',
+    },
+    
+    {
+      
+      type:'paragraph',
+      content:"✅ Iniciar um projeto com Vite"
+    
+  },
+  {
+      
+    type:'paragraph',
+    content:"✅ Utilizar flexbox, grid e unidades de medida relativa para responsividade"
+  
+},
+{
+      
+  type:'paragraph',
+  content:"✅ Criar e organizar os componentes seguindo boas práticas"
+
+},
+{
+      
+  type:'paragraph',
+  content:"✅ Fazer a comunicação entre componentes utilizando o conceito de propriedades"
+
+},
+{
+      
+  type:'paragraph',
+  content:"✅ Utilizar estados para criar e listar elementos da aplicação"
+
+},
+{
+      
+  type:'paragraph',
+  content:"✅ Controle de versão com Git e Github"
+
+},
+    {
       type:'link',
-      content:'👉 jane.design/doctorcare',
+      content:"👉 https://github.com/felipedev01",
     },
     {
       type:'link',
@@ -48,15 +89,57 @@ const posts= [
 
     content:[{
       type:'paragraph',
-      content:'Fala galeraa 👋',
+      content:'Olá Pessoal! 👋',
     },
     {
       type:'paragraph',
-      content:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+      content:'Este é o meu primeiro projeto feito com React.js, ele é simples mas aprendi muita coisa ao fazê-lo, é uma reprodução de um feed de uma rede social, onde implementei algumas funcionalidades como comentar postagens e curtir comentários.',
+
     },
     {
+      type:'paragraph',
+      content:'Habilidades Testadas:',
+    },
+    
+    {
+      
+      type:'paragraph',
+      content:"✅ Iniciar um projeto com Vite"
+    
+  },
+  {
+      
+    type:'paragraph',
+    content:"✅ Utilizar flexbox, grid e unidades de medida relativa para responsividade"
+  
+},
+{
+      
+  type:'paragraph',
+  content:"✅ Criar e organizar os componentes seguindo boas práticas"
+
+},
+{
+      
+  type:'paragraph',
+  content:"✅ Fazer a comunicação entre componentes utilizando o conceito de propriedades"
+
+},
+{
+      
+  type:'paragraph',
+  content:"✅ Utilizar estados para criar e listar elementos da aplicação"
+
+},
+{
+      
+  type:'paragraph',
+  content:"✅ Controle de versão com Git e Github"
+
+},
+    {
       type:'link',
-      content:'👉 jane.design/doctorcare',
+      content:"👉 https://github.com/felipedev01",
     },
     {
       type:'link',
@@ -65,7 +148,6 @@ const posts= [
     
 
   ]
-
   
   }
 ]

@@ -9,7 +9,7 @@ export function Sidebar(){
     return(
         <aside className={Styles.Sidebar}>
 
-            <img className={Styles.cover} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1hS6_zSCJKGaLJnuZjqxRmgmQ-exn6wgvfg&usqp=CAU" 
+            <img className={Styles.cover} src="https://miro.medium.com/max/1092/0*nifY9Fy8LFlDQ93W.png" 
             alt="" />
             <div className={Styles.profile}>
                <Avatar src="https://xesque.rocketseat.dev/users/avatar/profile-4706ed19-0060-42d0-9f2a-d5d61fdb9b6f-1635537196786.jpg"></Avatar>
