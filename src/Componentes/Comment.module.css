@@ -11,10 +11,14 @@
         margin: 0 0rem;
     }.authorAndTime>time{
         margin-top: 0rem!Important;
-     margin-right: 4rem!Important;
+     margin-right: 7rem!Important;
     }
 
 
+}.comment p{
+    white-space: break-spaces;
+    white-space: normal;
+    word-break: break-all;
 }
 
 .commentBox{

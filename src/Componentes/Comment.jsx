@@ -33,7 +33,7 @@ export function Comment({commentText,deleteComment}){
               <div className={styles.authorAndTime}>
               <strong>Felipe Cristovão da Silva</strong>
               
-              <time title='16 de junho' dateTime='2022-06-16'>Cerca de há 1h atrás</time>
+              <time title='16 de junho' dateTime='2022-06-16'>Agora mesmo</time>
             
 
                 
@@ -46,7 +46,9 @@ export function Comment({commentText,deleteComment}){
 
              </header>
 
-             <p>{commentText}</p>
+             <p>
+              {commentText}
+             </p>
              </div>
           <footer>
            <button className={styles.applaudButton} onClick={handleLikeComment}>
