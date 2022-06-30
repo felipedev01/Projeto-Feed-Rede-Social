@@ -5,7 +5,19 @@
 }.comment >img{
     height:3.125rem;
     width: 3.125rem;
-}.commentBox{
+}@media(max-width:768px){
+
+    .comment {
+        margin: 0 0rem;
+    }.authorAndTime>time{
+        margin-top: 0rem!Important;
+     margin-right: 4rem!Important;
+    }
+
+
+}
+
+.commentBox{
     flex:1;
 }.commentContent{
     width:98%;

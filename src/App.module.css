@@ -12,6 +12,7 @@
 
     .Wrapper {
         grid-template-columns:1fr;
+        margin:0rem auto;
     }
     html {
         font-size:87.5%;
