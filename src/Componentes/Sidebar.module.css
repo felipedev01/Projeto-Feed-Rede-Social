@@ -9,7 +9,23 @@
     background-color: #202024;
   
 
-}.cover{
+}@media(max-width:768px){
+
+    .Sidebar {
+        height: 250px;
+    
+    
+}.profile img{
+    height:4rem;
+    width:4rem;
+}.profile{
+    
+    margin-top: -2.2rem!Important;
+}
+    
+
+}
+.cover{
     height: 72px;
     width: 100%;
     object-fit: cover;
@@ -25,8 +41,11 @@
      align-items: center;
      margin-top: -1rem;
      
-}.avatar{
-   height:3rem;
+}
+
+
+.avatar{
+   height:10rem;
    width: 3rem;
   
    border-radius: 8px;
