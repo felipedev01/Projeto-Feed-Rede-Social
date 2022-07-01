@@ -55,7 +55,10 @@
     
        
 }.CommentForm{
-    padding:0!IMPORTANT;
+    padding: 0 0.4rem!IMPORTANT;
+}
+.commentList{
+    padding-right: 1rem;
 }
     
 
@@ -69,8 +72,14 @@
     align-content: space-between;
     justify-content: space-between;
     margin-bottom: 1.5rem;
-    margin-left: 0.4375rem;
-   
+    
+}@media(max-width:768px){
+
+    .post header{
+
+        padding-left: 0.6rem;
+
+    }
 }
 .content a{
     color: var(--green-500);
