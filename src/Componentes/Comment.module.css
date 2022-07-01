@@ -12,7 +12,10 @@
     }.authorAndTime>time{
         margin-top: 0rem!Important;
      margin-right: 7rem!Important;
-    }
+    }.comment >img{
+    height:3.125rem;
+    width: 3.125rem;
+}
 
 
 }.comment p{
