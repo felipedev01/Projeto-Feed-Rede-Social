@@ -13,9 +13,10 @@
         margin-top: 0rem!Important;
      margin-right: 7rem!Important;
     }.comment >img{
-    height:3.125rem;
-    width: 3.125rem;
-}
+        margin-left: 0.4rem;
+        margin-right: -0.4rem;
+    }
+    
 
 
 }.comment p{
@@ -49,7 +50,21 @@
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.2rem;
-}.applaudButton{
+}.applaudButtonLikeOn{
+    color:#00B37E;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size:0.875rem;
+    line-height:1rem;
+    margin-left:1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    outline: none !important;
+    outline-color: transparent !IMPORTANT;
+}
+.applaudButtonLikeOff{
     color:#8D8D99;
     background-color: transparent;
     border: none;
@@ -60,15 +75,21 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-}.applaudButton:focus {
+    outline: none !important;
+    outline-color: transparent !IMPORTANT;
+}
+.applaudButton:focus {
 
    border:2px solid black;
   
 }
 
-.applaudButton:hover{
+.applaudButtonLikeOn:hover{
     color:#00B37E;
-}.applaudIcon{
+}
+
+
+.applaudIcon{
     margin-right: 0.625rem;
 }
     

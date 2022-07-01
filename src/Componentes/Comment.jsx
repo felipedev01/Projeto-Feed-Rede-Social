@@ -7,6 +7,7 @@ import { set } from 'date-fns/esm'
 export function Comment({commentText,deleteComment}){
 
   const[likesCount,setLikesCount]=useState(0)
+  const[likeOn , setLikeOn]=useState(false)
 
   function handleLikeComment(){
     setLikesCount((state)=>{
@@ -17,6 +18,13 @@ export function Comment({commentText,deleteComment}){
       }
       
     })
+    if(likesCount==0){
+      setLikeOn(true)
+    }else{
+
+      setLikeOn(false)
+    }
+   
     
   }
 
@@ -56,7 +64,7 @@ export function Comment({commentText,deleteComment}){
              </p>
              </div>
           <footer>
-           <button className={styles.applaudButton} onClick={handleLikeComment}>
+           <button className={likeOn ? styles.applaudButtonLikeOn :styles.applaudButtonLikeOff} onClick={handleLikeComment}>
             <ThumbsUp size={20} className={styles.applaudIcon}/> Aplaudir
             <div className={styles.applaudCount}>{likesCount}</div>
            </button>
@@ -66,3 +74,5 @@ export function Comment({commentText,deleteComment}){
         
     )
 }
+
+      /*   {hasBorder ? Styles.AvatarWithBorder:Styles.Avatar}*/
