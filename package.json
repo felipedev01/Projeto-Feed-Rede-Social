@@ -2,7 +2,6 @@
   "name": "feed",
   "private": true,
   "version": "0.0.0",
-  "Homepage":"Projeto-Feed-Rede-Social/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
