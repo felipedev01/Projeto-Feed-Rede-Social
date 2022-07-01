@@ -19,7 +19,7 @@ export function Sidebar(){
             </div>
             <footer>
                     <a href="#">
-                    <img className={Styles.editlogo} src="/src/Assets/edit.svg" alt="edit logo" />
+                    <img className={Styles.editlogo} src="https://ik.imagekit.io/Ro476mas/edit_84QMA5-Z6.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1656634238717" alt="edit logo" />
                        
                         Editar seu perfil
                     </a>
