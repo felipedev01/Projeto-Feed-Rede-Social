@@ -9,7 +9,7 @@ export function Header(){
     <div>
       <header className={styles.Header}> 
         <img src="https://ik.imagekit.io/Ro476mas/Ignite-logo_WKVNSckZo.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1656635132225" alt="Logo Ignite" />
-        <h1>Feed</h1>
+        <h1>Ignite Feed</h1>
         </header>
     </div>
         
