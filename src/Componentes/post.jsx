@@ -4,11 +4,19 @@
  import {format,formatDistanceToNow} from 'date-fns'
  import ptBR from 'date-fns/locale/pt-BR'
 import { useState } from 'react'
+import { toast } from 'react-toastify'
 
 
  export function Post({author,publishedAt,content}){
 
   console.log(content)
+
+  function goLink(){
+
+  toast.warning('Funcionalidade não implementada!')
+
+
+  }
 
   const [newComment,setNewComment] =useState('')
 
@@ -78,7 +86,7 @@ import { useState } from 'react'
               )
             }else if(line.type==='link'){
               return(
-                <p key={line.content}><br /><a href="#">{line.content}</a></p>
+                <p key={line.content}><br /><a href="#" onClick={goLink}>{line.content}</a></p>
               )
             }
            })}

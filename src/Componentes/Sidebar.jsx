@@ -1,10 +1,18 @@
 import {Avatar} from './Avatar.jsx'
 import Styles from './Sidebar.module.css'
 import EditIcon from '../Assets/edit.svg'
+import { toast } from 'react-toastify'
 
 console.log(EditIcon)
 
 export function Sidebar(){
+
+
+    function profileEdit(){
+
+        toast.warning('Funcionalidade não implementada')
+
+    }
 
     return(
         <aside className={Styles.Sidebar}>
@@ -18,7 +26,7 @@ export function Sidebar(){
                 
             </div>
             <footer>
-                    <a href="#">
+                    <a href="#" onClick={profileEdit}>
                     <img className={Styles.editlogo} src="https://ik.imagekit.io/Ro476mas/edit_84QMA5-Z6.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1656634238717" alt="edit logo" />
                        
                         Editar seu perfil

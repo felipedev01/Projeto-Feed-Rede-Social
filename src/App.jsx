@@ -3,6 +3,8 @@ import {Header} from './Componentes/Header.jsx'
 import './Global.css'
 import Styles from './App.module.css'
 import {Sidebar} from './Componentes/Sidebar.jsx'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.min.css'
 
 const posts= [
   {
@@ -152,8 +154,31 @@ const posts= [
   }
 ]
 
+function welcome(){
+
+  setTimeout(() => {
+    toast.info('Disponível apenas funcionalidades de criar comentário, apagar comentário, e também aplaudir',{
+      autoClose:10000,
+  })
+  }, 3700);
+  
+    toast('😀 Seja bem vindo! Obrigado por testar. ',{
+      autoClose:2000,
+  
+  })
+
+  
+  
+  
+}
+
+welcome()
+
+  
 
 export function App() {
+
+ 
 
   return(
 
@@ -165,6 +190,7 @@ export function App() {
      <div className={Styles.Wrapper}>
      <Sidebar></Sidebar>
        <main>
+       
        {posts.map(post =>{
         return(
              <Post 
@@ -181,6 +207,8 @@ export function App() {
       }
 
        </main>
+       <ToastContainer></ToastContainer>
+
      </div>
       
       
