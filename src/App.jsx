@@ -160,14 +160,14 @@ function welcome(){
     toast.info('Disponível apenas funcionalidades de criar comentário, apagar comentário, e também aplaudir',{
       autoClose:10000,
   })
-  }, 3700);
-  
+  }, 4700);
+  setTimeout(() => {
     toast('😀 Seja bem vindo! Obrigado por testar. ',{
       autoClose:2000,
   
   })
 
-  
+}, 1000);
   
   
 }
