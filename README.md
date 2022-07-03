@@ -5,7 +5,7 @@
     <img src="./demonstracao4.gif">
 </h1>
 <h3 align="center">
-    <a href="projeto-feed-rede-social-7imn2h8ma-felipedev01.vercel.app">Acessar a demonstração</a>
+    <a href="https://projeto-feed-rede-social.vercel.app/">Acessar a demonstração</a>
 <h3 >
 
 ## 🔖&nbsp; Sobre
