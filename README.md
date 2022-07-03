@@ -2,7 +2,7 @@
     Ignite Feed
 </h1>
 <h1>
-    <img src="./demonstracao4.gif">
+    <img src="./demonstracao4.gif" width="100%" height="250">
 </h1>
 <h3 align="center">
     <a href="https://projeto-feed-rede-social.vercel.app/">Acessar a demonstração</a>
