@@ -157,7 +157,9 @@ const posts= [
 function welcome(){
 
   setTimeout(() => {
-    toast.info('Disponível apenas funcionalidades de criar comentário, apagar comentário, e também aplaudir',{
+    toast.info('Disponível apenas funcionalidades de criar comentário, apagar comentário, e aplaudir',
+    
+    {
       autoClose:10000,
   })
   }, 4700);
